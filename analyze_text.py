@@ -18,6 +18,6 @@ def analyze_text(string):
     percent = 100 * total_e / len(string)
     str_percent = "{:.2f}".format(percent)
                  
-    return "the text contains " + str(count) + " alphabetic characters, of which "+str(total_e) + " (" + str_percent + "%) of them are e"
+    return "the text contains " + str(count) + " alphabetic characters, of which "+str(total_e) + " (" + str_percent + "%) are 'e'."
 
 print(analyze_text("feEling"))
