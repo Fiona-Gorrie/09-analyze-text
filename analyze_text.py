@@ -19,5 +19,3 @@ def analyze_text(string):
     str_percent = "{:.2f}".format(percent)
                  
     return "the text contains " + str(count) + " alphabetic characters, of which "+str(total_e) + " (" + str_percent + "%) are 'e'."
-
-print(analyze_text("feEling"))
