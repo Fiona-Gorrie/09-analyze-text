@@ -15,7 +15,7 @@ def analyze_text(string):
     for a in string: 
         if (a.isalpha()) == True: 
                 count+=1
-    percent = 100 * total_e / len(string)
+    percent = 100 * total_e / count
     str_percent = "{:.2f}".format(percent)
                  
     return "The text contains " + str(count) + " alphabetic characters, of which "+str(total_e) + " (" + str_percent + "%) are 'e'."
